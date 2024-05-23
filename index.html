@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+<head>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evatech Australia</title>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/YuFungLam/FIT1050Assignment3/main/Asg3/images/favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <!--Logo is turned white in the css with a filter on dark mode-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="https://github.com/YuFungLam/FIT1050Assignment3/blob/main/Asg3/images/logo.png?raw=true" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <input placeholder="&#128269;Search">
+                    </li>
+                    <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                </ul>
+            </div>
+        </nav>
+        <div class="cs-contact-group">
+            <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                <li class="cs-li cs-dropdown" tabindex="0">
+                    <span class="cs-li-link">
+                        Contact Us
+                        <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/down-gold.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                    </span>
+                    <ul class="cs-drop-ul">
+                        <li class="cs-drop-li">
+                            <a href="tel:+61 (03) 9020 7017" class="cs-phone">
+                                <img class="cs-phone-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="logo" width="24" height="24" aria-hidden="true" decoding="async">
+                                +61(03)9020 7017
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-li-link">
+                        <i class="fa fa-user"></i>  Login or Sign up
+                    </a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-li-link">
+                        <i class="fa fa-shopping-cart"></i>  Cart
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+  <promo>
+    LIMITED TIME OFFER 📢 Free Delivery ➕ bonus Asus TUF Gaming Keyboard / Mouse & Mouse Pad set worth $175 with any custom or pre-built gaming PC. While stocks last. Enter code   TUF   at cart with any qualifying PC to claim.
+  </promo>
+
+
+<main>
+    <banner1>
+      <left>
+        <text>Australia's Best Custom Built Gaming PCs & Pro Workstation Computers</text>
+        <buttons>
+          <button>Pre-Built</button>
+          <button>Build it yourself</button>
+        </buttons>
+        <text><mini> 11+ years and over 10,000 PCs sold</mini></text>
+      </left>
+      <right>
+        <img src="images\computer.png" height=100%>
+      </right>
+    </banner1>
+    <types>
+      <subheading>Computer Systems</subheading>
+      <blocks>
+      <block>
+            <blockhead>Gaming</blockhead>
+            <img src="https://evatech.com.au/images/home/new_gaming_pc.webp">
+            <button>Check out full range</button>
+      </block>
+      <block>
+        <blockhead>Home & Office</blockhead>
+        <img src="https://evatech.com.au/images/home/new_home_pc.webp">
+        <button>Check out full range</button>
+        </home>
+      </block>
+      <block>
+        <blockhead>Workstation/Server</blockhead>
+        <img src="https://evatech.com.au/images/home/new_workstation_pc.webp">
+        <button>Check out full range</button>
+      </block>
+      </blocks>
+    </types>
+    <lorem_ipsum>
+      <subheading>Why choose us?</subheading>
+      When you buy an Evatech custom PC, you can rest assured you have a product assembled with care, tested thoroughly for quality assurance and built from only the latest generation hardware. However most importantly, you know you have a first class support team that speaks your language, that are trained experts who live and breathe PC hardware and who understand that there is no substitute for great customer service.
+    </lorem_ipsum>
+    <comments>
+    <subheading>Feedback from precious customers</subheading>
+    <contents>
+        <button><leftarrow>&#9204;</leftarrow></button>
+        <user>
+        <normal>Joshua</normal>
+        <normal>Melbourne,VIC</normal>
+        <rating>&#8902;&#8902;&#8902;&#8902;</rating>
+        <normal>Thank you very much. For what it's worth I couldn't be happier with the computer, you guys did an amazing job.</normal>
+        </user>
+        <user>
+        <normal>Joshua</normal>
+        <normal>Melbourne,VIC</normal>
+        <rating>&#8902;&#8902;&#8902;&#8902;&#8902;</rating>
+        <normal>Very nice guys, helped me all the way through the process, talked me out of spending too much, helped me get the best bang for buck and then built the system, set it up and tested it in just a few days. Fantastic job, great PC and spent...</normal>
+        </user>
+        <user>
+        <normal>Joshua</normal>
+        <normal>Melbourne,VIC</normal>
+        <rating>&#8902;&#8902;&#8902;&#8902;</rating>
+        <normal>Ordered a brand new custom setup yesterday and the way there site works is wonderful easy to understand and easy to use!</normal>
+        </user>
+        <button><rightarrow>&#9205;</rightarrow></button>
+    </contents>
+  <readmore><button>Read More Comments</button></readmore>
+  </comments>
+  <results>
+    <previous_clients>
+      <subheading>PREVIOUS CLIENTS</subheading>
+      <ul>
+        <li><a href='https://www.deakin.edu.au/'><img src="https://evatech.com.au/images/home/w/deakin_w.png"></a></li>
+        <li><a href=#><img src="https://evatech.com.au/images/home/w/screenplay_w.png"></a></li>
+        <li><a href='https://www.unimelb.edu.au/'><img src="https://evatech.com.au/images/home/w/melbourne_w.png"></a></li>
+        <li><a href='https://hisense.com.au/'><img src="https://evatech.com.au/images/home/w/hisense_w.png"></a></li>
+        <li><a href='https://www.monash.edu/'><img src="https://evatech.com.au/images/home/w/monash_w.png"></a></li>
+        <li><a href='https://www.unisq.edu.au/'><img src="https://evatech.com.au/images/home/w/southernqueensland_w.png"></a></li>
+        <li><a href='https://www.adelaide.edu.au/'><img src="https://evatech.com.au/images/home/w/adelaide_w.png"></a></li>
+      </ul>
+    </previous_clients>
+    <current_partner>
+      <subheading>CURRENT PARTNERS</subheading>
+      <ul>
+        <li><a href='https://au.msi.com/'><img src="https://evatech.com.au/images/home/w/msi_w.png"></a></li>
+        <li><a href='https://rog.asus.com/au/'><img src="https://evatech.com.au/images/home/w/rog_w.png"></a></li>
+        <li><a href='https://www.corsair.com/ww/en'><img src="https://evatech.com.au/images/home/w/corsair_w.png"></a></li>
+        <li><a href='https://www.samsung.com/au/'><img src="https://evatech.com.au/images/home/w/samsung_w.png"></a></li>
+        <li><a href='https://www.intel.com/'><img src="https://evatech.com.au/images/home/w/intel_w.png"></a></li>
+        <li><a href='https://www.in-win.com/'><img src="https://evatech.com.au/images/home/w/inwin_w.png"></a></li>
+        <li><a href='https://www.nvidia.com/en-au/'><img src="https://evatech.com.au/images/home/w/nvidia_w.png"></a></li>
+      </ul>
+    </previous_clients>
+  </results>
+<footer>
+    <left>
+      <words>
+        <ul>
+          <li><subheading><normal>About</subheading><normal>:</normal></li>
+          <li><normal><a href="#">Warranty & Returns</a></normal></li>
+          <li><normal><a href="#">Shipping</a></normal></li>
+          <li><normal><a href="#">Terms & Conditions</a></normal></li>
+          <li><normal><a href="#">Privacy Statement</a></normal></li>
+        </ul>
+        <ul>
+          <li><subheading><normal>Help</subheading><normal>:</normal></li>
+          <li><normal><a href="#">Support</a></normal></li>
+          <li><normal><a href="#">Online Enquiry</a></normal></li>
+          <li><normal><a href="#">Phone Us</a></normal></li>
+          <li><normal><a href="#">Feedback & Complaints</a></normal></li>
+        </ul>
+        <ul>
+          <li><subheading><normal>Information</subheading><normal>:</normal></li>
+          <li><normal><a href="#">Warranty & Returns</a></normal></li>
+          <li><normal><a href="#">Shipping</a></normal></li>
+          <li><normal><a href="#">Terms & Conditions</a></normal></li>
+          <li><normal><a href="#">Privacy Statement</a></normal></li>
+        </ul>
+      </words>
+      <payments>
+        <img src="https://evatech.com.au/images/theme/pm-paypal.png">
+        <img src="https://evatech.com.au/images/theme/pm-visamaster.png">
+        <img src="https://evatech.com.au/images/theme/pm-eft.png">
+        <a href="https://evatech.com.au/zip/"><img src="https://evatech.com.au/images/theme/pm-zip.png"></a>
+        <img src="https://evatech.com.au/images/theme/pm-klarna.png">
+        <a href="https://evatech.com.au/lay-by/"><img src="https://evatech.com.au/images/theme/pm-layaway.png"></a>
+      </payments>
+    </left>
+    <right>
+      <ul>
+        <li><normal>Stay In Touch</normal></li>
+        <li><mini>Subscribe to get the latest news on tech, promotions and new arrivals!</mini></li>
+        <li><input placeholder="Enter Your Email"><button>Subscribe</button></li>
+        <li><subheading><mini>Visit Us</mini></subheading><mini>:</mini></li>
+        <li><mini><a href="#">5/2 Fiveways Boulevarde, 3173 VIC</a></mini></li>
+        <li><mini><a href="#">Monday - Friday 10am-6pm</a></mini></li>
+        <li><mini><a href="#">+61 (03) 9020 7017</a></mini></li>
+        <li><mini><a href="#">ABN 83162049596</a></mini></li>
+        <li><img src="images/logo.png" height="15px"><mini>&copy; Evatech Pty Ltd. All rights reserved.</mini></li>
+      </ul>
+    </right>
+</footer>
+
+</html>
