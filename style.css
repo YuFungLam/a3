@@ -18,6 +18,9 @@
   body.scroll #cs-navigation .cs-ul-wrapper {
     top: 100%;
   }
+  button .search{
+    background-color: #fff;
+  }
   #cs-navigation {
     width: 94%;
     max-width: 80rem;
@@ -71,6 +74,8 @@
     justify-content: flex-end;
     align-items: center;
     gap: 1.5rem;
+    background-color: #000;
+    color: #000;
   }
   #cs-navigation .cs-logo {
     width: auto;
@@ -786,6 +791,7 @@ types button{
 }
 readmore{
   justify-self: right;
+  align-self: baseline;
 }
 lorem_ipsum{
   display: flex;
