@@ -10,7 +10,11 @@ CShamburgerMenu.addEventListener('click', function() {
     // run the function to check the aria-expanded value
     ariaExpanded();
 });
-
+function search(){
+    var target = document.getElementById("searchbar").value
+    var output = target? "Searching for "+target :"Please fill in the search bar!";
+    alert(output)
+}
 // checks the value of aria expanded on the cs-ul and changes it accordingly whether it is expanded or not 
 function ariaExpanded() {
     const csUL = document.querySelector('#cs-expanded');
