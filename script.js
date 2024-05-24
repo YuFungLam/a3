@@ -14,6 +14,14 @@ function search(){
     var target = document.getElementById("searchbar").value
     var output = target? "Searching for "+target :"Please fill in the search bar!";
     alert(output)
+    document.getElementById("searchbar").value = ""
+}
+
+function subscribe(){
+    var email = document.getElementById("email").value
+    var output = email? "Thanks for your subscription, latest news will be sent to "+email :"Please fill in the your email";
+    alert(output)
+    document.getElementById("email").value = ""
 }
 // checks the value of aria expanded on the cs-ul and changes it accordingly whether it is expanded or not 
 function ariaExpanded() {
